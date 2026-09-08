@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E   &kp R       &kp T                                                               &kp Y              &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D   &kp F       &kp G                                       &kp SLASH               &kp H              &kp J  &kp K      &kp L    &kp SEMI
-&mt LEFT_SHIFT Z  &kp X         &kp C   &kp V       &kp B          &mt LANGUAGE_2 LANGUAGE_1    &kp B                   &kp N              &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT MINUS
-&kp LCTRL         &kp LEFT_WIN  &tog 1  &kp DELETE  &kp BACKSPACE  &lt_to_layer_0 1 SPACE       &lt_to_layer_0 2 ENTER  &lt 3 RIGHT_SHIFT                             &kp LEFT_ALT
+&kp Q             &kp W         &kp E   &kp R       &kp T                                                            &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D   &kp F       &kp G                                    &kp MINUS               &kp H        &kp J  &kp K      &kp L    &kp SEMI
+&mt LEFT_SHIFT Z  &kp X         &kp C   &kp V       &kp B          &mt LCTRL ESC             &kp B                   &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &tog 1  &kp DELETE  &kp BACKSPACE  &lt_to_layer_0 1 SPACE    &lt_to_layer_0 2 ENTER  &lt 3 LANG2                             &kp LEFT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -87,10 +87,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4           &kp NUMBER_5                    &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
-&trans        &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                  &trans  &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&trans        &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &trans    &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-&trans        &trans        &tog 2                &tog 0                 &trans        &trans    &trans  &trans                                                  &kp DOT
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp NUMBER_4           &kp NUMBER_5                           &kp SLASH               &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK
+&trans        &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                  &kp BACKSLASH  &kp COMMA               &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&trans        &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &trans    &kp DOLLAR     &kp NUMBER_0            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
+&trans        &trans        &tog 2                &tog 0                 &trans        &trans    &trans         &lt_to_layer_0 3 LANG1                                            &kp DOT
             >;
 
             sensor-bindings = <&scroll_right_left>;
